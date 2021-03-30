@@ -113,9 +113,9 @@ errors and stopped apps from working after the plugin has been added to the proj
 ## Breaking Changes
 
 * The plugin received a new ID. Previously it was ```org.apache.cordova.ibeacon``` and now it runs as
-```com.unarin.cordova.beacon```. To perform an upgrade from earlier versions with the old ID, you'll have to remove
+```com.nodetalks.gtag.beacon```. To perform an upgrade from earlier versions with the old ID, you'll have to remove
 and add the plugin again with the cordova cli commands: ```cordova plugin rm org.apache.cordova.ibeacon``` and then
-```cordova plugin add com.unarin.cordova.beacon``` to get the latest version. You can have a look at the PhoneGap Build
+```cordova plugin add com.nodetalks.gtag.beacon``` to get the latest version. You can have a look at the PhoneGap Build
 submission [here](https://build.phonegap.com/plugins/986).
 
 # 2.1.0 (10.08.2014)

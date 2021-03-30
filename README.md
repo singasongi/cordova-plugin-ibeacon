@@ -356,12 +356,12 @@ cordova.plugins.locationManager.startMonitoringForRegion(beaconRegion)
 
 The underlying library uses the moving average to calculate distance by default, but an ARMA filter can be enabled which will weigh more recent measurements higher than older measurements. It can be enabled by adding the following preference to your `config.xml` file:
 
-```<preference name="com.unarin.cordova.beacon.android.altbeacon.EnableArmaFilter" value="true" />```
+```<preference name="com.nodetalks.gtag.beacon.android.altbeacon.EnableArmaFilter" value="true" />```
 
 #### Disable request for bluetooth permission
 By default, this library requests the user for bluetooth permissions when the app starts. If you would like to request permission in a different way or at a different time, set the following preference in your `config.xml` file.
 
-```<preference name="com.unarin.cordova.beacon.android.altbeacon.RequestBtPermission" value="false" />```
+```<preference name="com.nodetalks.gtag.beacon.android.altbeacon.RequestBtPermission" value="false" />```
 
 
 ## Contributions
@@ -378,8 +378,8 @@ This project uses [commitlint](https://github.com/conventional-changelog/commitl
 * `package.json` bump the version
 * `plugin.xml` bump the version
 * Publish to both npm packages (due to historical reasons)
-  * `$ npm publish` (this publishes under `com.unarin.cordova.beacon` in npm)
-  * Edit `name` property in the `package.json` file from `com.unarin.cordova.beacon` to `cordova-plugin-ibeacon` (do not commit the change)
+  * `$ npm publish` (this publishes under `com.nodetalks.gtag.beacon` in npm)
+  * Edit `name` property in the `package.json` file from `com.nodetalks.gtag.beacon` to `cordova-plugin-ibeacon` (do not commit the change)
   * `$ npm publish` again to publish under the legacy package name as well
   * revert the change you just did in `package.json`
 

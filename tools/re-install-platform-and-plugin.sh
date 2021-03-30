@@ -2,7 +2,7 @@
 
 set -x
 
-PLUGIN_ID="com.unarin.cordova.beacon"
+PLUGIN_ID="com.nodetalks.gtag.beacon"
 PATH_TO_LOCAL_PLUGIN_DIR="${HOME}/projects/cordova-plugin-ibeacon/"
 
 

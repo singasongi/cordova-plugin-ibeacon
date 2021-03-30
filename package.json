@@ -1,9 +1,9 @@
 {
-  "name": "com.unarin.cordova.beacon",
+  "name": "com.nodetalks.gtag.beacon",
   "version": "3.8.1",
   "description": "Proximity Beacon Monitoring and Transmission Plugin (supporting iBeacons)",
   "cordova": {
-    "id": "com.unarin.cordova.beacon",
+    "id": "com.nodetalks.gtag.beacon",
     "platforms": [
       "ios",
       "android"
